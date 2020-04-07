@@ -1,0 +1,75 @@
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+@import "./bootstrap.scss";
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-image: url('./../image/banner-bg.png');
+    background-size: cover;
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    nav.navbar {
+        a {
+            color: #ffffff !important;
+        }
+    }
+    section {
+        &.banner {
+            .wrap-info {
+                i.far {
+                    font-size: 2.5em !important;
+                }
+            }
+        }
+    }
+}
+main {
+    &#home {    
+        .social-media {
+            a {
+                i.fab {
+                    font-size: 2.3em !important;
+                }
+            }
+        }  
+        .bgimg-1, .bgimg-2, .bgimg-3 {
+            position: relative;
+            opacity: 0.65;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100%;
+            min-height: 200px;          
+          }      
+        .bgimg-1 {
+            background-image: url("./../image/home-bg-1.jpg");
+           
+        }        
+        .bgimg-2 {
+            background-image: url("./../image/home-bg-2.jpg");
+        }        
+        .bgimg-3 {
+            background-image: url("./../image/home-bg-3.jpg");
+        }
+    }
+}
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+}
