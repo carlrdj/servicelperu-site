@@ -1,5 +1,4 @@
-$("#down-to-home").click(function() {
-    $('#home').animate({
-        scrollTop: $(".second").offset().top},
-        'slow');
+$("#goToHome").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#home").offset().top}, 'slow');
 });
