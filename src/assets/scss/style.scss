@@ -10,15 +10,18 @@ $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
 @import "./bootstrap.scss";
+body {
+    overflow-x: hidden 
+}
 
 #particles-js {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
 }
 
 header {
-    background-image: url('./../image/banner-bg.png');
+    background-image: url('https://i.imgur.com/1JYrq5S.png');
     background-size: cover;
     background-color: #000000 !important;
     color: #ffffff !important;
@@ -37,6 +40,7 @@ header {
         }
     }
 }
+
 main {
     &#home {    
         .social-media {
@@ -48,7 +52,7 @@ main {
         }  
         .bgimg-1, .bgimg-2, .bgimg-3 {
             position: relative;
-            opacity: 0.75;
+            opacity: 0.50;
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -57,13 +61,41 @@ main {
             min-height: 200px;          
           }      
         .bgimg-1 {
-            background-image: url("./../image/home-bg-1.jpg");
+            background-image: url("https://i.imgur.com/lJecdhH.jpg");
         }        
         .bgimg-2 {
-            background-image: url("./../image/home-bg-2.jpg");
+            background-image: url("https://i.imgur.com/9S3akXH.jpg");
         }        
         .bgimg-3 {
-            background-image: url("./../image/home-bg-3.jpg");
+            background-image: url("https://i.imgur.com/Edobzq6.jpg");
+        }
+    }
+    &#us {
+        .social-media {
+            a {
+                i.fab {
+                    font-size: 2.3em !important;
+                }
+            }
+        }  
+        .bgimg-1, .bgimg-2, .bgimg-3 {
+            position: relative;
+            opacity: 0.50;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100%;
+            min-height: 200px;          
+          }      
+        .bgimg-1 {
+            background-image: url("https://i.imgur.com/lJecdhH.jpg");
+        }        
+        .bgimg-2 {
+            background-image: url("https://i.imgur.com/9S3akXH.jpg");
+        }        
+        .bgimg-3 {
+            background-image: url("https://i.imgur.com/Edobzq6.jpg");
         }
     }
 }
