@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SERVICEL PERU S.A.C. - NOSOTROS</title>
+    <title>SERVICEL PERU S.A.C. - CONTACTO</title>
     <link rel="stylesheet" href="./src/assets/library/aos/aos.min.css">
     <link rel="stylesheet" href="./src/assets/library/fontawesome-free-5.13.0-web/css/all.min.css">
     <link rel="stylesheet" href="./src/assets/stylesheet/style.min.css">
@@ -35,12 +35,13 @@
         <section class="banner">
             <div class="container">
                 <div class="row">
-                    <div class="col text-center m-5">                        
-                        <img src="./src/assets/image/png/us-banner.png"  class="img-fluid" alt="SERVICEL PERU - Nosotros" srcset="">
-                        <p class="h1 my-3">NOSOTROS</p>
+                    <div class="col text-center m-5">
+                        <img src="./src/assets/image/png/contact-banner.png" class="img-fluid"
+                            alt="SERVICEL PERU - Contacto" srcset="">
+                        <p class="h1 my-3">CONTACTO</p>
                         <blockquote class="blockquote">
                             <p>
-                                Somos una organización dedicada a brindar servicios y soluciones de tecnología de la información, para ayudar a nuestros clientes a potenciar sus negocios con las herramientas tecnológicas disponibles, orientando su enfoque directamente a su core de negocio.
+                                Atenderte y ayudarme es nuestra prioridad como equipo en <b>SERVICEL PERÚ</b>.
                             </p>
                         </blockquote>
                     </div>
@@ -48,19 +49,80 @@
             </div>
         </section>
     </header>
-    <main id="us">
+    <main id="contact">
         <section>
-            <div class="container">
+            <div class="container my-5">
                 <div class="row">
-                    <div class="col-xs-12 col-md-6 py-3 text-center" data-aos="zoom-out">
-                        <img src="./src/assets/image/png/us-mision.png" height="280px" alt="SERVICEL PERU - Mision" srcset="">
+                    <div class="col">
+                        <p class="h2 mb-4 nt-3 text-center">Estás a sólo 3 pasos de encontrar tu <span class="text-danger">
+                                solución.</span></p>
                     </div>
-                    <div class="col-xs-12 col-md-6 d-flex align-items-center d-flex justify-content-center" data-aos="zoom-out">
-                        <div>
-                            <p class="h3">Misión </p>
-                            <blockquote class="blockquote">
-                              <p>Brindar soluciones tecnológicas de última generación, servicio de cableado estructurado, soporte técnico personalizado y soluciones web a personas naturales y empresas que tengan un negocio físico y que deseen utilizar Internet como un nuevo canal de ventas.</p>
-                            </blockquote>                            
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-4" data-aos="zoom-out">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mb-4 bt-3 text-danger">Datos de contacto</h5>
+                                <div class="form-group">
+                                    <label for="fullname">Nombre completo</label>
+                                    <input type="text" class="form-control" id="fullname" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Correo electrónico</label>
+                                    <input type="email" class="form-control" id="email" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Teléfono</label>
+                                    <input type="text" class="form-control" id="phone" placeholder="+51">
+                                </div>
+                                <div class="form-group">
+                                    <label for="business">Empresa</label>
+                                    <input type="text" class="form-control" id="business" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 d-flex" data-aos="zoom-out">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mb-4 bt-3 text-danger">Datos de contacto</h5>
+                                <p class="text-center">Elige la hora y el día en el cual te gustaria ser contactado</p>
+                                <div class="form-group">
+                                    <label for="date">Fecha</label>
+                                    <input type="date" class="form-control" id="date" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Horario</label>
+                                    <select class="custom-select" id="inputGroupSelect01">
+                                        <option selected>Seleccione</option>
+                                        <option value="1">8:00 - 11:00</option>
+                                        <option value="2">11:00 - 14:00</option>
+                                        <option value="3">14:00 - 18.00</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Medio de contacto</label>
+                                    <div class="custom-control custom-checkbox">                                    
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1">Correo electrónico</label><br>
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1">Teléfono</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 d-flex" data-aos="zoom-out">
+                        <div class="card w-100">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mb-4 bt-3 text-danger">Agrega tus comentarios</h5>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary btn-md">Enviar</button>
+                                </div>                                
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -69,29 +131,7 @@
         <div class="bg-dark">
             <div class="bgimg-1">
                 <div id="litleParticles1" class="particles"></div>
-            </div> 
-        </div>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-6 d-flex align-items-center d-flex justify-content-center" data-aos="zoom-out">
-                        <div>
-                            <p class="h3">Visión </p>
-                            <blockquote class="blockquote">
-                              <p>Ser una empresa tecnológica líder a nivel nacional en ofrecer servicios, soluciones y productos de TI con un trato personal, profesional y excelente servicio, entregando soluciones innovadoras.</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-6 py-4 px-5 text-center data-aos=" data-aos="zoom-out">
-                        <img src="./src/assets/image/png/us-vision.png" class="img-fluid" alt="SERVICEL PERU - Vision" srcset="">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="bg-dark">
-            <div class="bgimg-2">
-                <div id="litleParticles2" class="particles"></div>
-            </div> 
+            </div>          
         </div>
         <section class="social-media">
             <div class="container my-5">

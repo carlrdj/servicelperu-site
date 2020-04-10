@@ -9,22 +9,23 @@ $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
-@import "./bootstrap.scss";
+@import "./../library/bootstrap-4.4.1/scss/bootstrap.scss";
 body {
     overflow-x: hidden 
 }
 
-#particles-js {
-    position: fixed;
+.particles {
+    position: absolute;
     width: 100%;
     height: 100%;
 }
 
 header {
-    background-image: url('https://i.imgur.com/1JYrq5S.png');
+    background-image: url('./../image/png/bg-banner.png');
     background-size: cover;
     background-color: #000000 !important;
     color: #ffffff !important;
+    position: relative;
     nav.navbar {
         a {
             color: #ffffff !important;
@@ -40,7 +41,6 @@ header {
         }
     }
 }
-
 main {
     &#home {    
         .social-media {
@@ -61,13 +61,13 @@ main {
             min-height: 200px;          
           }      
         .bgimg-1 {
-            background-image: url("https://i.imgur.com/lJecdhH.jpg");
+            background-image: url("./../image/jpg/bg-section-home-1.jpg");
         }        
         .bgimg-2 {
-            background-image: url("https://i.imgur.com/9S3akXH.jpg");
+            background-image: url("./../image/jpg/bg-section-home-2.jpg");
         }        
         .bgimg-3 {
-            background-image: url("https://i.imgur.com/Edobzq6.jpg");
+            background-image: url("./../image/jpg/bg-section-home-3.jpg");
         }
     }
     &#us {
@@ -88,15 +88,71 @@ main {
             min-height: 100%;
             min-height: 200px;          
           }      
-        .bgimg-1 {
-            background-image: url("https://i.imgur.com/lJecdhH.jpg");
-        }        
-        .bgimg-2 {
-            background-image: url("https://i.imgur.com/9S3akXH.jpg");
-        }        
-        .bgimg-3 {
-            background-image: url("https://i.imgur.com/Edobzq6.jpg");
-        }
+          .bgimg-1 {
+              background-image: url("./../image/jpg/bg-section-home-1.jpg");
+          }        
+          .bgimg-2 {
+              background-image: url("./../image/jpg/bg-section-home-2.jpg");
+          }        
+          .bgimg-3 {
+              background-image: url("./../image/jpg/bg-section-home-3.jpg");
+          }
+    }
+    &#contact {
+        .social-media {
+            a {
+                i.fab {
+                    font-size: 2.3em !important;
+                }
+            }
+        }  
+        .bgimg-1, .bgimg-2, .bgimg-3 {
+            position: relative;
+            opacity: 0.50;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100%;
+            min-height: 200px;          
+          }      
+          .bgimg-1 {
+              background-image: url("./../image/jpg/bg-section-home-1.jpg");
+          }        
+          .bgimg-2 {
+              background-image: url("./../image/jpg/bg-section-home-2.jpg");
+          }        
+          .bgimg-3 {
+              background-image: url("./../image/jpg/bg-section-home-3.jpg");
+          }
+    }
+    &#serviceTi {
+        .social-media {
+            a {
+                i.fab {
+                    font-size: 2.3em !important;
+                }
+            }
+        }  
+        .bgimg-1, .bgimg-2, .bgimg-3 {
+            position: relative;
+            opacity: 0.50;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100%;
+            min-height: 200px;          
+          }      
+          .bgimg-1 {
+              background-image: url("./../image/jpg/bg-section-home-1.jpg");
+          }        
+          .bgimg-2 {
+              background-image: url("./../image/jpg/bg-section-home-2.jpg");
+          }        
+          .bgimg-3 {
+              background-image: url("./../image/jpg/bg-section-home-3.jpg");
+          }
     }
 }
 @media only screen and (max-device-width: 1024px) {
