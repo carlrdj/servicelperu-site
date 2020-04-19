@@ -42,6 +42,13 @@ header {
     }
 }
 main {
+    section {        
+        &.strategic-allies {
+            img {
+                max-height: 75px;
+            }
+        }
+    }
     &#home {    
         .social-media {
             a {

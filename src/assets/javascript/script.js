@@ -113,3 +113,83 @@ document.getElementById('mainFooter').innerHTML = `
     </div>
 </div>
 `
+
+
+document.getElementById('strategicAllies').innerHTML = `
+<div class="container my-5">
+                <div class="row">
+                    <div class="col-12 text-center" data-aos="zoom-out">
+                        <p class="h3">Nuestros aliados estratégicos</p>
+                    </div>
+                    <div class="col-12 text-center" data-aos="zoom-out">
+                        <div class="container mt-3 pt-5 pr-5 pl-5">
+                            <div class="row">                                
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - APC" class="img-fluid" src="./src/assets/image/png/apc.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - Asus" class="img-fluid" src="./src/assets/image/png/asus.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - Cannon" class="img-fluid" src="./src/assets/image/png/cannon.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - Cisco" class="img-fluid" src="./src/assets/image/png/cisco.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - Dell" class="img-fluid" src="./src/assets/image/png/dell.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - Epson" class="img-fluid" src="./src/assets/image/png/epson.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - Eset" class="img-fluid" src="./src/assets/image/png/eset.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - Fortinet" class="img-fluid" src="./src/assets/image/png/fortinet.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - HP" class="img-fluid" src="./src/assets/image/png/hp.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - HP" class="img-fluid" src="./src/assets/image/png/hpl.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - Intel" class="img-fluid" src="./src/assets/image/png/intel.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - Kingston" class="img-fluid" src="./src/assets/image/png/kingston.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - Kyosera" class="img-fluid" src="./src/assets/image/png/kyosera.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - Lenovo" class="img-fluid" src="./src/assets/image/png/lenovo.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - Lg" class="img-fluid" src="./src/assets/image/png/lg.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - Microsoft" class="img-fluid" src="./src/assets/image/png/microsoft.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - Qnap" class="img-fluid" src="./src/assets/image/png/qnap.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - Samsung" class="img-fluid" src="./src/assets/image/png/samsung.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - Seagate" class="img-fluid" src="./src/assets/image/png/seagate.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - Toshiba" class="img-fluid" src="./src/assets/image/png/toshiba.png">
+                                </div>
+                                <div class="col-6 col-md-2 d-flex align-items-center">
+                                    <img alt="SERVICEL PERU - Trendnet" class="img-fluid" src="./src/assets/image/png/trendnet.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+`
