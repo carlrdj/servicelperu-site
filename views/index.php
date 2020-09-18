@@ -41,6 +41,12 @@
                             <h1>
                                 Servicios y soluciones de TI
                                 para empresas<br>
+                                <?php
+                                $asd = 'asdd'
+                                ?>
+                                <?php
+                                echo $asd
+                                ?>
                             </h1>
                             <div class="row my-5">
                                 <div class="col-4 icon text-center">
