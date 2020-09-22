@@ -43,16 +43,16 @@
                             <a class="nav-link" href="./">Inicio <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./us">Nosotros</a>
+                            <a class="nav-link" href="./?c=us">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./service-ti">Servicios de TI</a>
+                            <a class="nav-link" href="./?c=service-ti">Servicios de TI</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Soluciones de TI</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./product-ti">Productos de TI</a>
+                            <a class="nav-link" href="./?c=product-ti">Productos de TI</a>
                         </li>
                     <li class="nav-item">
                             <a class="nav-link" href="./?c=contact">Contacto</a>
@@ -66,6 +66,7 @@
         <section class="banner">
             <div class="container">
             <?php
+            $c = '';
             if (isset($_GET['c'])) {
                 $c = $_GET['c'];
             } else {
@@ -73,7 +74,7 @@
             }
             //echo $c
             switch ($c) {
-                default:
+                case 'index':
                     ?>
                 <div class="row">
                     <div class="col-xs-12 col-md-6 d-flex align-items-center">
@@ -109,6 +110,36 @@
                         <img src="./src/assets/image/png/home-banner.png" class="img-fluid" alt="SERIVCEL PERU - BANNER" srcset="">
                     </div>
                 </div>
+                <?php
+                    break;
+                case 'us':
+                    ?>
+                    <div class="row">
+                        <div class="col text-center m-5">                        
+                            <p class="h1 my-3">NOSOTROS</p>
+                            <blockquote class="blockquote">
+                                <p>
+                                    Somos una organización dedicada a brindar servicios y soluciones de tecnología de la información, para ayudar a nuestros clientes a potenciar sus negocios con las herramientas tecnológicas disponibles, orientando su enfoque directamente a su core de negocio. 
+                                    <br><br>
+                                    Contamos con personal altamente capacitado en tecnología de la información, y junto a nuestra amplia red de contactos profesionales representantes de las principales marcas a nivel mundial, nos permite brindar un servicio con alto estándar, muchas veces de uso exclusivo de empresas grandes. 
+                                </p>
+                            </blockquote>
+                        </div>
+                    </div>
+                <?php
+                    break;
+                case 'contact':
+                    ?>
+                    <div class="row">
+                        <div class="col text-center m-5">
+                            <p class="h1 my-3">CONTACTO</p>
+                            <blockquote class="blockquote">
+                                <p>
+                                    Atenderte y ayudarme es nuestra prioridad como equipo en <b>SERVICEL PERÚ</b>.
+                                </p>
+                            </blockquote>
+                        </div>
+                    </div>
                 <?php
                     break;
             }            
