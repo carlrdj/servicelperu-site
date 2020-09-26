@@ -29,5 +29,4 @@ class Contact {
             die($e->getMessage());
         }
     }
-
 }

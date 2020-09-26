@@ -1,6 +1,10 @@
 <IfModule mod_rewrite.c>
- RewriteEngine On
- RewriteCond %{REQUEST_URI} ^/orders [NC]
- RewriteCond %{QUERY_STRING} ^id=([0-9]+)$ [NC]
- RewriteRule ^(.*)$ %{REQUEST_URI}/%1\? [R,L]
+    RewriteEngine On
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+    Header always set Content-Security-Policy "upgrade-insecure-requests;"
+    
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^([\w\d~%.:_\-]+)$ index.php?c=$1 [NC]
 </IfModule>

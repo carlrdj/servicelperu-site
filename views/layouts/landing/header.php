@@ -43,19 +43,19 @@
                             <a class="nav-link" href="./">Inicio <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./?c=us">Nosotros</a>
+                            <a class="nav-link" href="./us">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./?c=service-ti">Servicios de TI</a>
+                            <a class="nav-link" href="./service">Servicios de TI</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Soluciones de TI</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./?c=product-ti">Productos de TI</a>
+                            <a class="nav-link" href="./product-ti">Productos de TI</a>
                         </li>
                     <li class="nav-item">
-                            <a class="nav-link" href="./?c=contact">Contacto</a>
+                            <a class="nav-link" href="./contact">Contacto</a>
                         </li>
                     </ul>
                     <span class="navbar-text">

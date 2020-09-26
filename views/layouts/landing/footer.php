@@ -39,12 +39,12 @@
                         <p class="h5">Soluciones de TI</p> 
                         <div class="blockquote-footer"></div> 
                         <ul> 
-                            <li><a href="./?c=service-ti">ManageEngine</a></li> 
-                            <li><a href="./?c=service-ti">Virtualización</a></li> 
-                            <li><a href="./?c=service-ti">Seguridad</a></li> 
-                            <li><a href="./?c=service-ti">Almacenamiento</a></li> 
-                            <li><a href="./?c=service-ti">Plataformas de TI</a></li> 
-                            <li><a href="./?c=service-ti">Respaldo & Recuperación</a></li> 
+                            <li><a href="./service">ManageEngine</a></li> 
+                            <li><a href="./service">Virtualización</a></li> 
+                            <li><a href="./service">Seguridad</a></li> 
+                            <li><a href="./service">Almacenamiento</a></li> 
+                            <li><a href="./service">Plataformas de TI</a></li> 
+                            <li><a href="./service">Respaldo & Recuperación</a></li> 
                         </ul> 
                     </div> 
                     <div class="col-xs-12 col-md-6 col-lg-3 d-none" data-aos="zoom-out"> 
